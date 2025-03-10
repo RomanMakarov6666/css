@@ -1,0 +1,39 @@
+p#pogrubienie_makarau {
+    font-size: 32px;
+    font-weight: bold;
+    color: #8343CB;
+}
+
+p#pochylona_makarau {
+    font-size: 37pt;
+    font-style: italic;
+    color: #E7A767;
+}
+
+p#index_gorny_makarau {
+    font-size: 1.2cm;
+    vertical-align: super;
+    color: #977517;
+}
+
+p#index_dolny_makarau {
+    font-size: 1.9cm;
+    vertical-align: sub;
+    color: rgb(20%, 85%, 87%);
+}
+
+p#mono_makarau {
+    font-size: 42px;
+    font-family: monospace;
+    color: #17C567;
+}
+
+p#powiekszenie_makarau {
+    font-size: 150%;
+    color: #512599;
+}
+
+p#pomniejszenie_makarau {
+    font-size: 80%;
+    color: rgb(71%, 54%, 21%);
+}
