@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+    body{
+        font-size: large;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 50%;
+    }
+    tr, td{
+       border: 3px solid black; 
+       margin:0;
+       padding: 3px;
+
+       
+    }
+
+    
+</style>
+<body>
+
+    <table>
+        <tr><td colspan="2" style="font-weight: bolder;font-size: xx-large;">Zaokrąglenie narożników obszarów bloków np. DIV </td>
+        <tr>
+            <td>Zaokrąglenie górnego-lewego 
+                narożnika:</td>
+            <td>selektor { border-top-left-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie górnego-prawego 
+                narożnika:
+                </td>
+            <td>selektor { border-top-right-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie dolnego-prawego 
+                narożnika:</td>
+            <td>selektor { border-bottom-right-radius: zaokrąglenie }</td>
+        </tr>
+        <tr>
+            <td>Zaokrąglenie dolnego-lewego 
+                narożnika:
+                </td>
+            <td>selektor { border-bottom-left-radius: zaokrąglenie }</td>
+        </tr>
+        
+    </table> <br> <br>
+
+    Zastosowanie:
+We wszystkich przypadkach selektorem może być dowolny znacznik, np. <br>
+<ul><li>p – akapit</li>
+<li>h1 –nagłówek</li>
+<li>div –blok</li></ul>
+
+
+
+Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w 
+procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj 
+podanie: <br>
+jednej wartości - zaokrąglenie symetryczne
+dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+druga - pionowy <br>
+Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę 
+strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone 
+narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. 
+Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli 
+promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz.Zastosowanie:
+We wszystkich przypadkach selektorem może być dowolny znacznik, np. 
+<ul><li>p – akapit</li>
+<li>h1 –nagłówek</li>
+<li>div –blok</li></ul>
+
+
+
+Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w 
+procentach (względem obszaru obramowania - zobacz: Model pudełkowy). Możliwe jest tutaj 
+podanie: <br>
+jednej wartości - zaokrąglenie symetryczne
+dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a 
+druga - pionowy <br>
+Zaokrąglone narożniki to bardzo ciekawy efekt wizualny, który może zwiększyć estetykę 
+strony. Co ciekawe, element wcale nie musi mieć obramowania, aby miał zaokrąglone 
+narożniki. Wystarczy jeśli będzie miał ustalone jakieś tło, aby efekt był widoczny na ekranie. 
+Ale uwaga: tekst wewnątrz elementu nie zostanie zawinięty do zaokrąglonych rogów. Jeśli 
+promień zaokrąglenia będzie zbyt duży, tekst wyjdzie na zewnątrz. <br>
+
+Przykład: <br>
+<div style="border: 1px solid black; width: 300px;">border-top-right-radius: 10px</div>
+<br>
+
+Dla centrowania w definicja CSS bloku DIV należy wpisać: <br>
+<div style="border: 1px solid black; width: 300px;">margin-left: auto; <br>
+margin-right: auto;</div>
+
+</body>
+</html>

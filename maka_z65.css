@@ -1,0 +1,43 @@
+#pierwszy_makarau{
+    width: 768pt;
+    background-color: pink;
+    border: 7px solid violet;
+    border-radius: 12px;
+
+}
+#pierwszy_makarau p:first-child{
+    font-size:7mm; font-style:italic;
+}
+
+#pierwszy_makarau p{font-size:11pt;}
+
+#drugi_makarau{
+    width: 768pt;
+    background-color: pink;
+    border: 7px solid violet;
+    border-radius: 12px;
+
+}
+#drugi_makarau p:first-child{
+    font-size:7mm; font-style:italic;
+}
+
+#drugi_makarau p{font-size:11pt;}
+
+
+#trzeci_makarau{
+    width: 768pt;
+    background-color: pink;
+    border: 7px solid violet;
+    border-radius: 12px;
+
+}
+#trzeci_makarau p:first-child{
+    font-size:7mm; font-style:italic;
+}
+
+#trzeci_makarau p{font-size:11pt;}
+
+
+
+
