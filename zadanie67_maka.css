@@ -1,0 +1,36 @@
+h1 {
+    color: purple;
+    font-size: 36pt;
+  }
+  h1::first-letter {
+    color: silver;
+    font-size: 70pt;
+  }
+  
+  .pierwszy {
+    font-size: 20pt; 
+    color: silver;
+  }
+  .pierwszy::first-letter {
+    color: red;
+    font-size: 115pt; 
+  }
+  
+  .drugi {
+    font-size: 20pt; 
+    color: red;
+  }
+  .drugi::first-letter {
+    color: blue;
+    font-size: 115pt;
+  }
+  
+  .first-line::first-line {
+    font-weight: bold;
+    color: red;
+  }
+  .first-line::first-letter {
+    color: red;
+    font-size: 80pt;
+  }
+  

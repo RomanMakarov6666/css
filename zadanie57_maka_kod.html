@@ -1,0 +1,84 @@
+<html>
+<head>
+<META HTTP-EQUIV="content-type" CONTENT="text/html">
+<style>
+body {
+    background-color: gray;
+}
+textarea {
+    width: 90%;
+    height: 40%;
+    resize: none;
+ }
+
+ </style>
+</style>
+</head>
+<body>
+    <h2>HTML-kod</h2>
+<textarea disabled readonly><!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 57 - Kod</title>
+    <link rel="stylesheet" href="maka_z57.css">
+</head>
+<body>
+
+<p>
+    <u>Akapit 1</u> Makarau klasa 1P grupa 1<br>
+    Użyłem * (gwiazdka) dla selektora uniwersalnego.<br>
+    Parametry: wielkość 35pt (30 + 5 liter imienia „Raman”),<br>
+    kolor liter: czerwony (numer 17 - nieparzysty),<br>
+    kolor tła: srebrny (numer 17 - nieparzysty).<br>
+    Dzięki selektorowi uniwersalnemu otrzymasz formatowanie, jakie określił nauczyciel.
+</p>
+
+<p class="klasa_nieuniwersalna_makarau">
+    <u>Akapit 2</u> Makarau klasa 1P grupa 1<br>
+    Użyłem klasy nieuniwersalnej: p.klasa_nieuniwersalna_makarau<br>
+    Parametry: wielkość 32pt (25 + 7 liter nazwiska „Makarau”),<br>
+    kolor liter: zielony (numer 17 - nieparzysty).
+</p>
+
+<h1 class="klasa_uniwersalna_makarau">
+    <u>Akapit 3</u> Makarau klasa 1P grupa 1<br>
+    Użyłem klasy uniwersalnej: .klasa_uniwersalna_makarau<br>
+    Parametry: wielkość 23pt (20 + 3 miesiąc urodzenia „marzec”),<br>
+    kolor liter: zielony (numer 17 - nieparzysty).
+</h1>
+
+<div class="klasa_uniwersalna_makarau">
+    <u>Akapit 4</u> Makarau klasa 1P grupa 1<br>
+    Użyłem klasy uniwersalnej: .klasa_uniwersalna_makarau dla DIV<br>
+    Parametry: wielkość 23pt, kolor liter: zielony.
+</div>
+
+</body>
+</html>
+        </textarea>
+    <h2>CSS-kod</h2>
+    <textarea disabled readonly>
+{
+    font-size: 35pt;
+    color: red;
+    background-color: silver;
+    }
+    
+    /* Klasa nieuniwersalna */
+    p.klasa_nieuniwersalna_makarau {
+    font-size: 32pt;
+    color: green;
+    }
+    
+    /* Klasa uniwersalna */
+    .klasa_uniwersalna_makarau {
+    font-size: 23pt;
+    color: green;
+    }
+          
+    </textarea>
+    <a href="start.html" target="strony">wroć</a>
+
+</body>
+</html>

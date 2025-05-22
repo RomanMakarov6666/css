@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadanie 66</title>
+    <style>
+        p:first-line {
+            font-size: 12pt;
+            font-weight: bold;
+            color: red;
+        }
+
+        p::after {
+            content: " ← koniec akapitu";
+            font-style: italic;
+            color: gray;
+        }
+
+        p::before {
+            content: "Początek → ";
+            font-style: italic;
+            color: gray;
+        }
+
+        p:first-letter {
+            font-size: 100px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Zadanie 66 – Pseudoelementy</h1>
+
+    <p><a href="zadanie66_maka.html">Zadanie 66</a></p>
+
+    <h2>:first-line</h2>
+    <p>
+        Pseudoelement <strong>:first-line</strong> obejmuje formatowaniem całą pierwszą linię tekstu w elemencie. 
+        Przykładowy styl zmienia rozmiar i kolor tekstu w tej linii.
+    </p>
+    <pre>
+p:first-line {
+    font-size: 12pt;
+    font-weight: bold;
+    color: red;
+}
+    </pre>
+
+    <h2>::before i ::after</h2>
+    <p>
+        Pseudoelementy <strong>::before</strong> i <strong>::after</strong> dodają zawartość przed i po elemencie. 
+        Stosuje się je często do ozdabiania lub dodawania treści niezależnej od HTML-a.
+    </p>
+    <pre>
+p::before {
+    content: "Początek → ";
+    font-style: italic;
+    color: gray;
+}
+
+p::after {
+    content: " ← koniec akapitu";
+    font-style: italic;
+    color: gray;
+}
+    </pre>
+
+    <h2>:first-letter</h2>
+    <p>
+        Pseudoelement <strong>:first-letter</strong> pozwala na sformatowanie pierwszej litery w akapicie – np. jej powiększenie i nadanie koloru.
+    </p>
+    <pre>
+p:first-letter {
+    font-size: 100px;
+    color: red;
+}
+    </pre>
+
+    <h2>Efekt działania:</h2>
+    <p>
+        To jest przykładowy akapit, w którym widać zastosowanie wszystkich opisanych pseudoelementów.
+    </p>
+
+</body>
+</html>

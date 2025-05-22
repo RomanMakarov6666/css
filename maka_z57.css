@@ -1,0 +1,19 @@
+/* Selektor uniwersalny */
+* {
+    font-size: 35pt;
+    color: red;
+    background-color: silver;
+  }
+  
+  /* Klasa nieuniwersalna */
+  p.klasa_nieuniwersalna_makarau {
+    font-size: 32pt;
+    color: green;
+  }
+  
+  /* Klasa uniwersalna */
+  .klasa_uniwersalna_makarau {
+    font-size: 23pt;
+    color: green;
+  }
+  

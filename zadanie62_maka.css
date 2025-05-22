@@ -1,0 +1,17 @@
+/* Raman Makarau */
+p {
+    font-size: 14pt;
+    color: yellow; 
+}
+
+p:lang(pl) {
+    font-weight: bold;
+    color: red; 
+    font-size: 18mm; 
+}
+
+p:lang(en) {
+    font-style: italic;
+    color: blue; 
+    font-size: 20mm; 
+}

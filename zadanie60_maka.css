@@ -1,0 +1,39 @@
+/*  Raman Makarau */
+
+#blok1_makarau {
+    background-color: green;
+    width: 600px;
+    font-size: 21mm;
+  }
+  
+  #blok2_makarau {
+    background-color: green;
+    width: 600px;
+    font-size: 21mm;
+  }
+  
+  #blok3_makarau {
+    background-color: green;
+    width: 600px;
+    font-size: 21mm;
+  }
+  
+  
+  #blok1_makarau:hover {
+    background-color: orange;
+    font-size: 21mm;
+    color: black;
+  }
+  
+  #blok2_makarau:hover {
+    background-color: blue;
+    font-size: 21mm;
+    color: black;
+  }
+  
+  #blok3_makarau:hover {
+    background-color: turquoise;
+    font-size: 21mm;
+    color: black;
+  }
+  

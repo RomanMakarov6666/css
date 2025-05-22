@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Zadanie 56 - Klasy CSS</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    table {
+      border: 2px solid black;
+      border-collapse: collapse;
+      margin: 10px 0;
+    }
+    td {
+      padding: 10px;
+      font-family: Arial, sans-serif;
+    }
+    .bold {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>1. Składnia teoretyczna definiowania klasy</h1>
+  <table><tr><td>selektor.nazwa_klasy { cecha: wartość; }</td></tr></table>
+
+  <h1>2. Opis dla "cecha" oraz "wartość"</h1>
+  <p>„Cecha” to atrybut CSS (np. color, font-size), a „wartość” to przypisanie tej cesze (np. red, 12pt).</p>
+
+  <h1>3. Jaki znacznik może być selektorem? Trzy przykłady:</h1>
+  <p>
+    Znaczniki mogące być selektorami to: <br>
+    <b>p</b> – akapit <br>
+    <b>h1</b> – nagłówek <br>
+    <b>td</b> – komórka tabeli
+  </p>
+
+  <h1>4. Uwagi na temat nazwy klas</h1>
+  <p>
+    Nazwą może być <span class="bold">dowolny pojedynczy wyraz</span>, nie może on zawierać: <br>
+    a) <span class="bold">spacji</span><br>
+    b) <span class="bold">kropki</span><br>
+    c) <span class="bold">dwukropka</span><br>
+    d) <span class="bold">nawiasów</span><br>
+    e) <span class="bold">plusa</span><br>
+    f) <span class="bold">znaku równości</span><br>
+    g) <span class="bold">przecinka</span><br>
+    h) <span class="bold">pytajnika</span><br><br>
+    Może zawierać: <br>
+    a) <span class="bold">litery</span> (A-Z, a-z)<br>
+    b) <span class="bold">cyfry</span> (0-9)<br>
+    c) <span class="bold">myślniki</span> (-)<br>
+    d) <span class="bold">podkreślniki</span> (_)<br><br>
+    Nazwa nie może zaczynać się od <span class="bold">cyfry ani myślnika</span>. <br>
+    Gdy chcemy użyć zakazanych znaków, należy <span class="bold">poprzedzić je ukośnikiem odwrotnym (\)</span>.
+  </p>
+
+  <h1>5. Zastosowanie klas</h1>
+  <p>Klas używamy do wspólnego stylowania różnych elementów bez względu na typ znacznika.</p>
+
+  <h1>6. Zastosowanie listy klas</h1>
+  <p>Stosuje się, gdy jeden element ma przyjąć kilka klas – <code>class="klasa1 klasa2"</code>.</p>
+
+  <h1>7. Składnia listy klas i uwagi</h1>
+  <table><tr><td>&lt;selektor class="klasa1 klasa2"&gt;...&lt;/selektor&gt;</td></tr></table>
+  <p>Kolejność klas nie ma znaczenia, decyduje kaskadowość.</p>
+
+  <h1>8. Podzbiory klas</h1>
+  <table><tr><td>selektor.klasa1.klasa2 { cecha: wartość; }</td></tr></table>
+  <p>Stosujemy, gdy reguła ma dotyczyć tylko elementów mających wiele konkretnych klas jednocześnie.</p>
+
+  <h1>9. Sygnał, że należy zastosować klasy</h1>
+  <p>Gdy element występuje na wielu stronach i ma to samo formatowanie, warto użyć klasy.</p>
+
+  <h1>10. Planowanie klas</h1>
+  <p>Klasy planujemy już na etapie projektowania, by łatwo zarządzać stylem całej strony.</p>
+
+  <h1>11. Cel komentarzy przy klasach</h1>
+  <p>Pomagają pamiętać, do czego dana klasa była przypisana, szczególnie przy dużych arkuszach CSS.</p>
+
+  <h1>12. Przykład definiowania klasy i użycia</h1>
+  <pre>
+CSS:
+p.przyklad { color: red; }
+
+HTML:
+&lt;p class="przyklad"&gt;To jest akapit.&lt;/p&gt;
+  </pre>
+
+  <h1>13. Klasa dla jednego selektora</h1>
+  <pre>
+CSS:
+p.moja { color: green; font-size: 14pt; }
+
+HTML:
+&lt;p class="moja"&gt;Treść akapitu&lt;/p&gt;
+  </pre>
+
+  <h1>14. Klasa uniwersalna i znak „*”</h1>
+  <p>
+    Znak „*” oznacza selektor uniwersalny. Można go pominąć. <br>
+    Przykład:
+  </p>
+  <pre>
+CSS:
+.przyklad_uni { font-size: 12pt; color: red; }
+
+HTML:
+&lt;p class="przyklad_uni"&gt;Przykład akapitu&lt;/p&gt;
+&lt;h1 class="przyklad_uni"&gt;Przykład nagłówka&lt;/h1&gt;
+  </pre>
+</body>
+</html>
