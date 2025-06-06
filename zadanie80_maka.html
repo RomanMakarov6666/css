@@ -2,23 +2,31 @@
 <html>
     <head>
         <meta charset="UTF-8" />
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        </style>
 		</head>
     <body>
 	
 	<table border="1" width="100%">
           
-            <tr><th width="20%">Pozycjonowanie</th>
+            <tr><th rowspan="2" width="20%">Pozycjonowanie</th>
         <td>
-            <u><b>Pozycjonowanie</u></b> pozwala zdefiniować położenie elementów na stronie internetowej. Elementy można rozmieszczać nie tylko względem brzegów strony, ale również względem jej poszczególnych elementów. Można rozmieszczac elementy tak, że jeden będzie przykrywał inny
+            <u><b>Pozycjonowanie -></u></b> pozwala zdefiniować położenie elementów na stronie internetowej. Elementy można rozmieszczać nie tylko względem brzegów strony, ale również względem jej poszczególnych elementów. Można rozmieszczac elementy tak, że jeden będzie przykrywał inny
         </td></tr>
-            <th rowspan="4">3</th>
+    <tr><td>Do pozycjonowania służy <b>atrybut position</b> <br>
+        selektor{ position: rodzaj; parametry; }
+        </td></tr>
+            <th rowspan="4">1</th>
             <th>Pozycjonowanie relatywne</th>
 		</tr>
 		<tr><td>Można przesunąć wybrany element w stosunku do naturalnego pozycjonowania elementów. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i górnej krawędzi.</td></tr>
 		<tr><td>selektor {position: relative; kierunek: wielkość;}</td></tr>
 		<tr><td>np. selektor {position: relative; left: 10px; top: 10px;}</td></tr>
 			
-			<th rowspan="4">3</th>
+			<th rowspan="4">2</th>
             <th>Pozycjonowanie absolutne</th>
 
 		<tr><td>Dzięki temu poleceniu można przesunąć wybrany element w stosunku do wybranych krawędzi strony lub też nadrzędnego elementu tworzącego blok. Będzie to nie zależne odinnych elementów, a także od miejsca wpisania reguły w dokumencie.</td></tr>
