@@ -6,11 +6,13 @@
             body{
                 font-family: Arial, Helvetica, sans-serif;
             }
+            table, th, td{border-collapse: collapse;
+            border: 2px solid black;}
         </style>
 		</head>
     <body>
 	
-	<table border="1" width="100%">
+	<table width="100%">
           
             <tr><th rowspan="2" width="20%">Pozycjonowanie</th>
         <td>
@@ -22,7 +24,7 @@
             <th rowspan="4">1</th>
             <th>Pozycjonowanie relatywne</th>
 		</tr>
-		<tr><td>Można przesunąć wybrany element w stosunku do naturalnego pozycjonowania elementów. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i górnej krawędzi.</td></tr>
+		<tr><td><u>Można przesunąć wybrany element w stosunku do naturalnego pozycjonowania elementów</u>. Można łączyć kierunki, czyli jednocześnie ustawić odległość od na przykład lewej i górnej krawędzi.</td></tr>
 		<tr><td>selektor {position: relative; kierunek: wielkość;}</td></tr>
 		<tr><td>np. selektor {position: relative; left: 10px; top: 10px;}</td></tr>
 			
@@ -39,19 +41,19 @@
             <td>Dzięki temu poleceniu można przywrócić naturalne pozycjonowanie elementów oparte na <br>
                 kolejności występowania w dokumencie HTML. Podanie jakiejkolwiek odległości nie ma <br>
                 żadnego wpływu na pozycję elementu. <br>
-                Składnia reguły: <br>
+                <u>Składnia reguły:</u> <br>
                 selektor {position: static;}</td>
         </tr>
         <tr> <td>Kolejność nakładania (warstwy nakładające się) <br>
-            rodzaj: <br>
+            <u>rodzaj:</u> <br>
             "relative" - pozycjonowanie relatywne <br>
             "absolute" - pozycjonowanie absolutne <br>
             "fixed" - pozycjonowanie ustalone <br>
-            kolejność:  <br>
+            <u>kolejność:</u>  <br>
             liczba określającą kolejność, kolejność rośnie wraz z numeracją element z najmniejszą <br>
            liczbą będzie na samym spodzie <br>
             "auto" - przywraca naturalną kolejność <br>
-           Dzięki temu poleceniu można ustalić kolejność nakładania się elementów. W normalnym <br>
+           Dzięki temu poleceniu <u>można ustalić kolejność nakładania się elementów</u>. W normalnym <br>
            stanie elementy nakładają się w kolejności wpisywania do dokumentu HTML. Można to <br>
            zmienić wstawiając własną kolejność. <br>
            Kolejność nakładania dotyczy elementów pozycjonowanych.</td></tr>
@@ -64,7 +66,7 @@
             <th>Przycinanie elementu</th>
         </tr>
         <tr>
-            <td>Dzięki temu poleceniu można przyciąć element z czterech stron: od góry, prawej strony, od <br>
+            <td>Dzięki temu poleceniu <u></u>można przyciąć element z czterech stron: od góry, prawej strony, od <br>
                 dołu i od lewej strony. Możliwe jest to tylko przy position: absolute;. Przycięty fragment <br>
                 może być tylko prostokątem. <br>
                 współrzędne: punkty, od których element będzie przycięty, współrzędne liczone są od <br>
@@ -72,7 +74,7 @@
                 oraz dół - lewo(dwie liczby).</td>
         </tr>
         <tr>
-            <td>Składnia reguły: <br>
+            <td><u>Składnia reguły:</u> <br>
                 selektor {position: absolute; clip: rect(wartości określają rogi prostokąta: górny-prawy i
                 dolny-lewy.);}
                 </td>
@@ -105,7 +107,7 @@
                 </td>
         </tr>
         <tr>
-            <td>Składnia reguły: <br>
+            <td><u>Składnia reguły:</u> <br>
                 selektor {vertical-align: sposób;}</td>
         </tr>
         <tr><th rowspan="3">6</th>
@@ -160,7 +162,7 @@
            Dzięki temu poleceniu można nadać określony sposób wyświetlania, inny niż naturalny. Na <br>
            przykład element wyświetlany w linii, może być wyświetlany w bloku i na odwrót. <br>
            </td></tr>
-        <tr> <td>Składnia reguły: <br>
+        <tr> <td><u>Składnia reguły:</u> <br>
             selektor {display: sposób;}
            </td></tr>
         <tr><th rowspan="3">9</th>
