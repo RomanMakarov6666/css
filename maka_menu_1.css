@@ -1,0 +1,41 @@
+body{
+    background-color: RGB(137,97,71);
+}
+
+ul /* -> lista nieuporządkowana*/
+{
+    list-style: none;        /*  -> usuwa punktor listy */
+    margin: 5px;             /* -> odstęp zewnętrzny 5px*/
+    padding: 0px;            /* -> brak odstępu wewnętrznego*/
+    display: block;  /* -> wyświetlenie jako blok */
+    width: 150px;    /* -> szerokość elementu 150px */
+}
+
+ul li     /* -> element listy */
+     { 
+      display: block; /* -> wyświetlenie jako blok */
+      list-style: none; /* -> brak punktorów */
+      margin: 0px;  /* -> brak marginesów */
+      padding: 0px; /* -> brak wewnętrznych odstępów */
+     } 
+
+ul a:link,                 /* -> styl dla nieodwiedzonego linku */
+ul a:visited               /* -> styl dla odwiedzonego linku */
+{
+    display: block;         /* -> element będzie wyświetlony w bloku (odstęp z góry i z dołu) */
+    color: #005500;         /* -> kolor tekstu ciemnozielony */
+    text-decoration: none;  /* -> brak podkreślenia */
+    border: 2px outset #cccccc;  /* -> ramka wypukła 2px w kolorze szarym */
+    padding: 5px;   /* -> odstęp wewnętrzny 5px */
+    width: 120px;   /* -> szerokość linku 120px */
+    background-color: RGB(117, 68, 136);
+}
+
+ul a:hover                  /* -> styl po najechaniu kursorem */
+{
+    color: #ff00ff;         /* -> kolor tekstu różowy */
+    text-decoration: none;  /* -> brak podkreślenia */
+    border-style: inset;  /* -> ramka wklęsła */
+    padding: 7px 3px 3px 7px; /* -> góra 7px, prawa 3px, dół 3px, lewa 7px */
+    background-color: RGB(186, 17, 68);
+}
